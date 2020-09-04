@@ -1,0 +1,275 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+}
+
+.container {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    text-align: unset;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container .top-info {
+    position: relative;
+    padding-top: 1px;
+    width: 82%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+.container .top-info .my-image {
+  background-color: #6B90A5;
+  border: 10px solid #6B90A5;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  margin: 50px auto 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .top-info .my-image {
+    border-width: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container .top-info .my-image {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    top: 25px;
+    right: 30px;
+  }
+}
+
+.container .top-info .my-image div {
+  display: inline-block;
+  background-color: #367192;
+  border: 10px solid #367192;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+}
+
+@media only screen and (min-width: 425px) {
+  .container .top-info .my-image div {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container .top-info .my-image div {
+    height: 240px;
+    width: 240px;
+    border-width: 15px;
+  }
+}
+
+.container .top-info .my-image div div {
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  background-color: #004B71;
+  border: 10px solid #004B71;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .top-info .my-image div div {
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    border-width: 15px;
+  }
+}
+
+.container .top-info .my-image div div img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .top-info .intro {
+    width: 55%;
+    margin-top: 100px;
+  }
+}
+
+.container .top-info .intro h1 {
+  font-family: "Montserrat-Bold";
+  font-weight: normal;
+  font-size: 36px;
+  color: #004B71;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .top-info .intro h1 {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container .top-info .intro h1 {
+    font-size: 72px;
+  }
+}
+
+.container .top-info .intro h4 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px auto 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .top-info .intro h4 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container .top-info .intro h4 {
+    font-size: 36px;
+  }
+}
+
+.container .more {
+  background-color: #004B71;
+  color: #fff;
+  padding: 1px 0;
+}
+
+.container .more .content {
+  padding: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .more .content {
+    width: 82%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+}
+
+.container .more .content .soon {
+  font-size: 36px;
+  font-family: "Montserrat-Bold";
+  color: #6B90A5;
+  margin: 70px auto 100px;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .more .content .soon {
+    display: inline-block;
+    width: 59%;
+    font-size: 44px;
+    margin: unset;
+    position: relative;
+    top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container .more .content .soon {
+    font-size: 72px;
+    width: 66%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container .more .content .details {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container .more .content .details {
+    width: 33%;
+  }
+}
+
+.container .more .content .details .detail-pair .label {
+  font-family: "Montserrat-Bold";
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.container .more .content .details .detail-pair .value {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  margin-top: 15px;
+}
+
+.container .more .content .details .social {
+  margin: 50px auto 25px;
+}
+
+.container .more .content .details .social a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .more .content .details .social a {
+    margin: 0 0 0 20px;
+  }
+}
+
+.container .more .content .details .social a i {
+  font-size: 30px;
+}
+
+.container .more .footer {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  border-top: 1px solid #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .more .footer {
+    width: 82%;
+    max-width: 900px;
+    text-align: center;
+  }
+}
+
+.container .more .footer div {
+  margin: 20px auto;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container .more .footer div {
+    display: inline-block;
+    width: 49%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
